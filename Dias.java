@@ -10,17 +10,17 @@ public class Dias{
         diaSemana = scanner.nextInt();
         if(diaSemana==1){
             System.out.println("Lundi");
-        }else if(condincion==2){
+        }else if(diaSemana==2){
             System.out.println("Mardi");
-        }else if(condincion==3){
+        }else if(diaSemana==3){
             System.out.println("Mercredi");
-        }else if(condincion==4){
+        }else if(diaSemana==4){
             System.out.println("Jeudi");
-        }else if(condincion==5){
+        }else if(diaSemana==5){
             System.out.println("Vendredi");
-        }else if(condincion==6){
+        }else if(diaSemana==6){
             System.out.println("Samedi");
-        }else if(condincion==7){
+        }else if(diaSemana==7){
             System.out.println("Dimanche");
         }else{
             System.out.println("Numero no valido");
